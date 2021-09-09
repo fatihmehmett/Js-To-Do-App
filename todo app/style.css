@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ortala{
+    position: relative;
+    left: 33%;
+    height: 500px;
+    width: 401px;
+    background-color:rgb(221, 219, 219);
+}
+#ortala #giris{
+    width: 75%;
+    height: 35px;
+    position: relative;
+    
+    margin: 10px;
+}
+.container{
+    border: 1px solid rgb(122, 122, 122);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    
+}
+
+.container h2{
+    color:rgb(214, 10, 10);
+    font-size: 35px;
+}
+
+.container #Delete{
+    font-size: 16px;
+    border: 1px solid red;
+    background: transparent;
+    padding: 9px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: red;
+}
+.container #Delete:hover{
+    background-color: rgb(253, 40, 40);
+    color: #fff;
+}
+
+#ortala ul{
+    list-style: none;
+    
+}
+
+#ortala ul li{
+    width: 100%;
+    color: rgb(102, 93, 233);
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid rgb(141, 141, 141);;
+    text-align: left;
+}
+
+#resim{
+    width: 600px;
+    
+    background:rgb(255, 248, 248);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#resim img{
+    max-width: 100%;
+    height: auto;
+    opacity: 20%;
+    
+}
+
+.sil{
+    float :right;
+}
+.sile{
+    float :right;
+}
+
+input~button{
+    width: 55px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color:red;
+    border:1px solid red;
+    border-radius: 5px;
+
+}
